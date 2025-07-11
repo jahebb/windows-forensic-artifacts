@@ -1,5 +1,5 @@
 # Security/4624: An account was successfully logged on
-This event indicates an account has successfuly authenticated to the endpoint. It is logged on the **destination** endpoint. 
+This event indicates an account has successfully authenticated to the endpoint. It is logged on the **destination** endpoint. 
 
 This event is a **Logon Event**, meaning it is logged on the system that is being authenticated to. 
 
@@ -51,7 +51,7 @@ The `EventData/LogonType` provides information regarding what type of logon occu
 
 | Logon Type | Description |
 | - | - |
-| 2 | **Interactive** (user loggong on through screen or virtual console) |
+| 2 | **Interactive** (user logging on through screen or virtual console) |
 | 3 | **Network** (RDP with NLA enabled) |
 | 7 | **Unlock** (RDP reconnects or interactive unlocking) |
 | 9 | **Explicit** credentials (`runas`) |
